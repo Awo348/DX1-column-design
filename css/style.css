@@ -1,5 +1,32 @@
-h1 {
-    color: orange;
-    border: 1px solid black;
-    display: inline;
+div {
+    /* border: 1px solid red; */
+    /* display: inline-block; */
+    /* background: skyblue; */
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.left-division {
+    vertical-align: top;
+    width: 45%;
+    color: tomato;
+    background: whitesmoke;
+    height: 500px;
+    display: inline-block;
+}
+
+.right-division {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    background: tomato;
+    height: 500px;
+}
+
+.container {
+    border: 1px solid orangered;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
